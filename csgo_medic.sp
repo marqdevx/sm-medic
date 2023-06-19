@@ -34,7 +34,7 @@ public void restoreRound(int roundNumber)
     char nRound[128];
     IntToString(roundNumber, nRound, sizeof(nRound));
 
-    //Needed to build a string with for the default restore, format "backup_round<round>.txt" the <round> with "XX" format like "backup_round02.txt"
+    //Needed to build a string for the default restore, format "backup_round<round>.txt" the <round> with "XX" format like "backup_round02.txt"
     char backupFile[256] = "backup_round";
 
     if (roundNumber < 10)
