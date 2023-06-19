@@ -38,6 +38,6 @@ jobs:
       - name: Compile code
         run: |
           chmod +x addons/sourcemod/scripting/compile.sh
-          addons/sourcemod/scripting/compile.sh csgo_medic.sp
+          addons/sourcemod/scripting/compile.sh ./csgo_medic.sp
 
     
