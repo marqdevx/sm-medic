@@ -39,6 +39,6 @@ jobs:
         run: |
           chmod +x addons/sourcemod/scripting/compile.sh
           ls
-          addons/sourcemod/scripting/compile.sh ./csgo_medic.sp
+          addons/sourcemod/scripting/spcomp ./csgo_medic.sp
 
     
